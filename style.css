@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+    /* Ajoutez vos styles pour les smartphones ici */
+}
+
+container {
+    width: 50%;
+    margin: auto;
+}
+
+/* Style du formulaire */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style des libellés */
+label {
+    font-weight: bold;
+}
+
+/* Style des champs de saisie */
+input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+/* Style du bouton Afficher */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Changement de couleur du bouton au survol */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style des informations de l'utilisateur */
+.user-info {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;    
+    justify-content: center;
+
+
+}
+
+/* Style du titre de l'utilisateur */
+.user-info h3 {
+    margin-top: 0;
+    justify-content: center;
+}
+
+/* Style des informations textuelles */
+.user-info p {
+    margin: 10px 0;
+    justify-content: center;
+
+}
+
+/* Style de la photo de l'utilisateur */
+.user-photo {
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Style de la photo de l'utilisateur */
+.user-photo img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
